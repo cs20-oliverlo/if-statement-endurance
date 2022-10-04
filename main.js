@@ -143,7 +143,7 @@ function btnFunc10() {
     if (balance > 0) {
         if (balance * 0.021 > 10) {
             alert("Your minimun payment is $" + (balance * 0.021));
-        } else if (balance * 0.021 < 10 && balance > 10) {
+        } else if (balance * 0.021 < 10) {
             alert("Your minimum payment is $10");
         } else {
             alert("Your minimum payment is $" + balance)
