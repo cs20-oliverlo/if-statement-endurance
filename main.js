@@ -146,9 +146,9 @@ function btnFunc10() {
         } else if (balance * 0.021 < 10) {
             alert("Your minimum payment is $10");
         } else {
-            alert("Your minimum payment is $" + balance)
+            alert("Your minimum payment is $" + balance);
         }
     } else {
-        alert("Please input a valid balance")
+        alert("Please input a valid balance");
     }
 }
